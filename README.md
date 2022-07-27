@@ -6,7 +6,10 @@ Clone the project .
 Go in ‘backend > client_revenue’ folder. You will find backend project.
 
 1. Open this folder in terminal and create virtual environment <br>
+
+```shell
 python3 -m venv venv
+```
 
 2. Activate the env <br>
 source venv/bin/activate
