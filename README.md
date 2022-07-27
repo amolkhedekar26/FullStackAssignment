@@ -12,26 +12,40 @@ python3 -m venv venv
 ```
 
 2. Activate the env <br>
+```shell
 source venv/bin/activate
+```
 
 3. To install all required packages , run following command <br>
+```shell
 pip install -r requirements.txt
+```
 
 4. Setup your MySQL DB and replace connection string in settings.py file
 If not installed , install mysqlclient package using <br>
+```shell
 pip install mysqlclient
+```
 
 5. To run server type, <br>
+```shell
 python manage.py runserver
+```
 
 6. To make migrations, <br>
+```shell
 python manage.py makemigrations   
+```
 
 7. To apply those migrations, <br>
+```shell
 python manage.py migrate          
+```
 
 8. Create superuser account by <br>
+```shell
 python manage.py createsuperuser
+```
 
  Enter details.
 
@@ -49,10 +63,13 @@ Go to ‘frontend>client_revenue’ folder
 1. You will see react app
 
 2. To install all dependancies, run <br>
+```shell
 npm install
+```
 
 3. Then to start the react app run <br>
+```shell
 npm start
+```
 
-Now you can access the project.
-
+Now you can access the project in browser at 3000 port.
